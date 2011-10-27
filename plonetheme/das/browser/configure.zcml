@@ -1,0 +1,94 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="plonetheme.das">
+
+    <!-- 'Das Theme' Zope 3 browser layer -->
+    <interface
+        interface=".interfaces.IThemeSpecific"
+        type="zope.publisher.interfaces.browser.IBrowserSkinType"
+        name="Das Theme"
+        />
+
+    <!-- das  special view -->
+    <browser:page
+        for="*"
+        name="dasview"
+        class=".dasview.ThemeView"
+        permission="zope.Public"
+        allowed_interface=".interfaces.IThemeView"
+        />  
+ 
+    <!-- Das.logo "-->
+    <browser:viewlet
+      name="das.logo"
+      for="*"
+      layer=".interfaces.IThemeSpecific"
+      manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
+      template="templates/logo.pt"
+      class=".dasview.LogoViewlet"
+      permission="zope2.View"
+      />
+
+    <!-- das language bar -->
+    <browser:viewlet  
+      name="das.language_bar"
+      for="*"
+      layer=".interfaces.IThemeSpecific"
+      manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
+      template="templates/language_bar.pt"
+      class=".dasview.LanguageViewlet"
+      permission="zope2.View"
+      />  
+
+    <!-- das.searchbox "-->
+    <browser:viewlet
+      name="das.searchbox"
+      for="*"
+      layer=".interfaces.IThemeSpecific"
+      manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
+      template="templates/searchbox.pt"
+      class=".dasview.SearchboxViewlet"
+      permission="zope2.View"
+      />  
+    
+     <!-- move plone.abovecontenttitle.documentactions to portalheader manager -->
+   <!-- <browser:viewlet
+      name="plone.abovecontenttitle.documentactions"
+      interface=".interfaces.IThemeSpecific"
+      manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
+      class="plone.app.layout.viewlets.content.DocumentActionsViewlet"
+      permission="zope2.View"
+      /> -->
+    <browser:viewlet
+     name="das.documentactions"
+     manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
+     template="templates/documentactionsIco.pt"
+     class=".dasview.DocumentactionsViewlet"
+     layer=".interfaces.IThemeSpecific"
+     permission="zope2.View"
+     />
+
+    <!-- quicklinks (liens utiles & contact)-->
+    <browser:viewlet  
+      name="das.quicklinks"
+      for="*"
+      layer=".interfaces.IThemeSpecific"
+      manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
+      template="templates/quicklinks.pt"
+      class=".dasview.Quicklinks"
+      permission="zope2.View"
+      />        
+ 
+     <!-- Das footer -->
+    <browser:viewlet
+      name="das.footer"
+      for="*"
+      layer=".interfaces.IThemeSpecific"
+      manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
+      template="templates/footer.pt"
+      class=".dasview.FooterViewlet"
+      permission="zope2.Public"
+      />  
+</configure>

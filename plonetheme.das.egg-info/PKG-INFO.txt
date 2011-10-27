@@ -1,0 +1,36 @@
+Metadata-Version: 1.0
+Name: plonetheme.das
+Version: 1.0
+Summary: An Installable theme for Plone 4
+Home-page: UNKNOWN
+Author: Fabrice Monaco
+Author-email: fmonaco@cirb.irisnet.be 
+License: Creative Commons Attribution 3.0 Unported
+Description: Introduction
+        ============
+        :Author: Fabrice Monaco
+        :Sponsor: CIRB
+        :Copyright: Creative Commons Attribution 3.0 Unported
+        
+        
+        This is a sample Plone4 theme 
+        
+        The purpose of this buildout is to show how to do a Plone4 skin from the ground
+        up.
+        
+        
+        
+        
+        
+        Changelog
+        =========
+        
+        1.0dev (unreleased)
+        -------------------
+        
+        - Initial release
+        
+Platform: UNKNOWN
+Classifier: Framework :: Plone
+Classifier: Programming Language :: Python
+

@@ -1,0 +1,532 @@
+/* CSS DAS RBC */
+
+/* CSS RESET ERIC MEYER */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+
+#content a:link,
+#content a:visited,
+dl.portlet a:link,
+dl.portlet a:visited{
+ 	color:#666666;
+	text-decoration:none;
+}
+
+#content a:hover{
+	color:#666666 !important;
+	text-decoration:underline;
+}
+dl.portlet a:hover {
+    color: #CB99CC !important;
+    text-decoration:underline;
+}
+/* End CSS RESET */
+body {
+    background-color: #cb99cc;
+    font-family:Arial;
+    font-size:12px;
+    color:#666;
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#portal-logo{
+  margin-top:0;
+  margin-left:-0.7em;
+  padding-left:0;
+}
+
+#content a:link, dl.portlet a:link {
+    border-bottom: 0 solid #CCCCCC;
+}
+
+#visual-portal-wrapper {
+    background: #FFF url("header.jpg") top left no-repeat;
+    width: 980px;
+    margin: 10px auto;
+    height: 350px;
+}
+#language, #searchbox, #printMail {
+    float: right;
+}
+#language {
+    width: 250px;
+    height: 50px;
+}
+#language ul#languageselector li {
+    display: inline;
+}
+#clear-float {
+    clear: both;
+}
+
+div.position-1\:4 {
+    margin-left: -77.875%;
+}
+
+div.width-1\:4 {
+    width: 19.75%;
+}
+
+div.position-3\:4 {
+    margin-left: -20.87%;
+}
+
+div.width-1\:2 {
+    width: 50.75%;
+}
+
+#portal-quicklinks li a {
+    display: inline-block;
+    min-width: 6em;
+    padding: 0.5em 1em 2em;
+    white-space: normal;
+    margin-top:-7px;
+}
+
+#portal-globalnav,
+#portal-quicklinks{
+    list-style-type:none;
+    list-style-image:none;
+    font-size:15px;
+    background:url('main_nav_bg.jpg') top left repeat-x;
+    height:49px;
+    font-size:14px;
+    font-weight:bold;
+    
+}
+
+#portal-globalnav{
+    width: 75%;
+    float:left; 
+    margin-right:0;
+    padding-right:0;
+}
+
+#portal-quicklinks{
+    width: 25%;
+    float:right; 
+    margin-left:0px;
+    padding-left:0;
+    position:relative;
+    left:-1px;
+}
+
+
+
+#portal-globalnav .selected a, 
+#portal-globalnav .selected a:hover,
+#portal-globalnav a:hover,
+#portal-globalnav a:focus,
+#portal-quicklinks .selected a, 
+#portal-quicklinks .selected a:hover,
+#portal-quicklinks a:hover,
+#portal-quicklinks a:focus{
+    background: url("main_nav_selected.jpg") repeat-x scroll center top transparent;
+    color: #4A0012;
+}
+
+
+
+#portal-globalnav li a,
+#portal-quicklinks li a{
+    text-align:center;
+    background: none repeat scroll 0 0 transparent;
+    border-right: 0em solid white;
+    color: #4A0012;
+}
+  
+
+#portal-globalnav li,
+#portal-quicklinks li{
+    display:inline;
+    float:left;
+    line-height:normal;
+   
+}
+
+#portal-quicklinks li{
+
+padding-top:7px;
+
+}
+
+
+
+
+#main_nav li div{
+    padding-top:8px;
+}
+
+#main_nav li.accueil div, 
+#main_nav li.presentation div, 
+#main_nav li.projets div, 
+#main_nav li.synthese div, 
+#main_nav li.appel-a-projets div{
+    width:115px;
+}
+#main_nav li.liens-utiles div, 
+#main_nav li.contact div{
+    width:115px;
+}
+#main_nav li.liens-utiles{
+    margin-left:155px;
+}
+#main_nav li div a:link, 
+#main_nav li div a:visited, 
+#main_nav li div a:active, 
+#main_nav li div a:hover{
+    text-decoration:none;
+    color:#4a0012;
+}
+
+
+#portal-breadcrumbs{
+      margin-left: -17.8em;
+    margin-bottom:2em;
+}
+
+.section-liens #portal-breadcrumbs,
+.section-liens-nl #portal-breadcrumbs,
+.section-links #portal-breadcrumbs,
+.section-news #portal-breadcrumbs,
+.section-events #portal-breadcrumbs,
+.template-contact-info #portal-breadcrumbs,
+.section-Members #portal-breadcrumbs,
+.template-login_form #portal-breadcrumbs
+{
+   margin-left: 0em;
+}
+
+#portal-breadcrumbs a:link, 
+#portal-breadcrumbs a:visited, 
+#portal-breadcrumbs a:active{
+    color:#4a0012;
+    text-decoration:none;
+    font-weight:bold;
+}
+#portal-breadcrumbs a:hover, 
+#portal-breadcrumbs a:focus{
+    color:#4a0012;
+    text-decoration:underline;
+    font-weight:bold;
+}
+
+/*----icone plone menu navtree----*/
+.icons-on .contenttype-plone-site {
+    background: url("") no-repeat scroll 0 -1508px transparent;
+}
+
+#portal-column-one{
+ margin-top:1.8em;
+}
+dl.portletNavigationTree{
+ /*margin-top:2.8em;*/
+}
+
+
+.portletNavigationTree{
+    width:174px;
+    margin-left:7px;
+}
+.portletNavigationTree ul{
+    /*border-top:1px solid #4a0012;*/
+    background:url(nav_header_bg.jpg) top left repeat-x;
+    border-bottom:1px solid #cb99cc;
+    padding-top:5px;
+}
+.portletNavigationTree ul li{
+    margin-left:20px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.navTreeTopNode a:link, 
+.navTreeTopNode a:visited{
+    color:#cb99cc !important;
+    text-decoration:none;
+    font-weight:bold;
+    font-size:14px;
+    margin-top:-0.6em;
+    margin-left: -2.5em;
+}
+
+.navTreeTopNode a:hover, 
+.navTreeTopNode a:focus{
+    color:#cb99cc !important;
+    text-decoration:underline;
+    font-size:14px;
+}
+
+dl.portlet ul.navTree .navTreeCurrentItem{
+    background-color: transparent;
+    border-left: 0em solid #DDDDDD;
+    margin-left: 0em;
+}
+
+dl.portlet ul.navTree li.navTreeTopNode .navTreeCurrentItem{
+    margin-left: -2.5em;
+}
+
+
+dl.portlet ul.navTree li.navTreeTopNod a:hover{
+    color:#cb99cc !important;
+    text-decoration:underline;
+    font-weight:bold;
+    font-size:14px;
+    text-decoration:underline;
+    
+}
+
+
+
+/*pas d'icones pour le menu*/
+/*li.navTreeItem .contenttype-folder,
+li.navTreeItem .contenttype-document {
+    background: url("") no-repeat scroll 0 -644px transparent;
+}*/
+
+li.navTreeItem .state-published,
+li.navTreeItem .state-private,
+li.navTreeItem .state-missing-value{
+    background: url("") no-repeat scroll 0 -644px transparent;
+}
+
+dl.portlet ul.navTreeLevel0 > .navTreeItem {
+    border-bottom: 0em dotted #DDDDDD;
+    /*line-height: 1em;*/
+    padding: 0.05em 1em;
+}
+
+.navTreeLevel0{
+    /*border-top:1px solid #4a0012;*/
+    border-bottom:0;
+    margin-top:10px;
+    background:none;
+}
+
+.navTreeLevel0 .visualNoMarker{
+    margin-left:0;
+    margin-bottom:4px;
+    margin-top:4px;
+    padding-left:15px;
+}
+
+.navTreeLevel0 .visualNoMarker a:link, 
+.navTreeLevel0 .visualNoMarker a:visited, 
+.navTreeLevel0 .visualNoMarker a:active{
+    /*color:#666;*/
+    font-weight:normal;
+    text-decoration:none;
+    font-size:12px;
+    line-height:1em;
+}
+.navTreeLevel0 .visualNoMarker a:hover, 
+.navTreeLevel0 .visualNoMarker a:focus{
+    color:#666 !important;
+    font-weight:normal;
+    text-decoration:underline;
+    font-size:12px;
+}
+
+.navTreeLevel0 .visualNoMarker a.navTreeCurrentItem{
+        color: #490010;
+   	background: url("nav_li_selected.jpg") no-repeat scroll 5px 0px transparent;
+}
+
+.navTreeLevel0 .visualNoMarker a.navTreeCurrentItem:hover{
+        color: #490010 !important;
+	text-decoration: underline;
+   	/*background: url("nav_li_selected.jpg") no-repeat scroll 0 0px transparent;*/
+}
+
+#navigation ul li ul li.selected a:link, 
+#navigation ul li ul li.selected a:visited, 
+#navigation ul li ul li.selected a:active{
+    color:#490010;
+    font-weight:normal;
+    text-decoration:none;
+    font-size:12px;
+}
+#navigation ul li ul li.selected a:hover, 
+#navigation ul li ul li.selected a:focus{
+    color:#490010;
+    font-weight:normal;
+    text-decoration:underline;
+    font-size:12px;
+}
+#navigation ul li ul li.selected{
+    background:url(img/nav_li_selected.jpg) 0 2px no-repeat;
+}
+
+
+
+.documentActions{
+   
+   display:block;
+   float:left;
+   margin-bottom: 0;
+   margin-left: 74em;
+   margin-top: -5.5em;
+}
+
+.documentActions ul li{
+   display:inline;
+   float:left;
+}
+
+
+/*.documentActions ul.docuAction{
+    margin-left:40em;
+}*/
+
+
+ul#portal-languageselector {
+    background: none repeat scroll 0 0 transparent;
+    font-size: 150%;
+    margin-top:-10.5em;
+    margin-right:0em;
+    text-transform:uppercase;
+}
+
+/*----Searchbox----*/
+#portal-searchbox{
+   margin-right: -23em;
+   margin-top:-31em;
+}
+
+input.searchButton{
+   background: url("search_btn.jpg") no-repeat scroll -1px 0px transparent;
+   height: 26px;
+   width: 26px;
+   border:0 none;
+}
+
+li#document-action-print div.docaction{
+ margin-bottom:0em;
+}
+
+.LSBox{
+ margin-top:18em;
+ margin-right:24.5em;
+}
+
+#searchGadget {
+    width: 11em;
+}
+
+h1{
+    font-size:18px;
+    color:#490010;
+    margin-bottom:30px;
+}
+
+
+div#portal-columns{
+    background-color:#FFFFFF;
+    font-size:120%;
+}
+
+#column-content{
+    padding-left:30px;
+    color: #223645;
+}
+
+#parent-fieldname-description{
+    color: #223645 !important;
+}
+
+
+
+#content li {
+	list-style-position: ouside;
+	list-style-image: url("nav_li_selected.jpg") ;
+ /*list-style-type:none;*/
+ /*background: url("nav_li_selected.jpg") no-repeat scroll 0 3px transparent;*/
+}
+
+table.projets, table.projets tr th, table.projets tr td{
+    border:1px solid #cb99cc;
+    padding:5px;
+    border-collapse:collapse;
+}
+table.projets{
+    width:707px;
+}
+table.projets tr th{
+    background-color:#feff99;
+    color:#4b0012;
+    vertical-align:middle;
+    font-weight:bold;
+    font-size:13px;
+    text-transform:capitalize;
+}
+table.projets tr td{
+    background-color:#FFF;
+    color:#223645;
+}
+
+#portal-footer{
+    margin-top:0px;
+    padding: 0;
+    background-color:#cb99cc;
+    color:#FFF;
+    border-bottom:1px solid #FFF;
+    
+    
+}
+
+dl.portlet dt, 
+div.portletAssignments div.portletHeader {
+    background: none repeat scroll 0 0 transparent;
+    border-bottom:1px solid #CB99CC;
+    border-top:1px solid #000000;
+}
+
+div#footer {
+
+    color:#FFF;
+    margin-top:0;
+    font-size:130%;
+}
+
+div#footleft{
+    display: block;
+    float: left;
+    line-height: 1.2em;
+    margin-bottom:-2em;
+    margin-left:0;
+    padding-left:0;
+    margin-top: 1.8em;
+}
+
+div#footright{
+   margin-top:0;
+}
+
+div#footer a:link, 
+div#footer a:visited, 
+div#footer a:focus{
+    text-decoration:none;
+    color:#FFFFFF;
+}
+
+div#footer a:hover, 
+div#footer a:focus{
+    text-decoration:underline;
+    color:#FFF;
+}

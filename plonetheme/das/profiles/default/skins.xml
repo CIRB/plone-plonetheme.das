@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<object name="portal_skins" allow_any="False" cookie_persistence="False" default_skin="Das Theme">
+
+ <object name="das_images"
+    meta_type="Filesystem Directory View"
+    directory="plonetheme.das:skins/das_images"/>
+ <object name="das_templates"
+    meta_type="Filesystem Directory View"
+    directory="plonetheme.das:skins/das_templates"/>
+ <object name="das_styles"
+    meta_type="Filesystem Directory View"
+    directory="plonetheme.das:skins/das_styles"/>
+
+ <skin-path name="Das Theme" based-on="Plone Default">
+  <layer name="das_images"
+     insert-after="custom"/>
+  <layer name="das_templates"
+     insert-after="das_images"/>
+  <layer name="das_styles"
+     insert-after="das_templates"/>
+ </skin-path>
+
+</object>

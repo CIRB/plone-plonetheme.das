@@ -1,0 +1,11 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:cmf="http://namespaces.zope.org/cmf"
+    i18n_domain="plonetheme.das">
+
+  <!-- File System Directory Views registration -->
+  <cmf:registerDirectory name="das_images"/>
+  <cmf:registerDirectory name="das_templates"/>
+  <cmf:registerDirectory name="das_styles"/>
+
+</configure>
