@@ -1,6 +1,6 @@
 Metadata-Version: 1.0
 Name: plonetheme.das
-Version: 1.0
+Version: 1.1
 Summary: An Installable theme for Plone 4
 Home-page: UNKNOWN
 Author: Fabrice Monaco
@@ -26,7 +26,7 @@ Description: Introduction
         Changelog
         =========
         
-        1.1 (unreleased)
+        1.1 (2011-11-09)
         ----------------
         
         - Nothing changed yet.
