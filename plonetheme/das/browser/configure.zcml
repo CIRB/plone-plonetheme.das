@@ -79,18 +79,7 @@
       template="templates/quicklinks.pt"
       class=".dasview.Quicklinks"
       permission="zope2.View"
-      />  
-     
-    <browser:viewlet
-      name="das.breadcrumb"
-      for="*"
-      
-      manager=".interfaces.IMenuBreathcrumb"
-      template="templates/breadcrumb.pt"
-      class=".dasview.BreadcrumbViewlet"
-      template="templates/breathcrumb.pt"
-      permission="zope2.View"
-      />      
+      />        
  
      <!-- Das footer -->
     <browser:viewlet

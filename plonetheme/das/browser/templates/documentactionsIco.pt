@@ -16,9 +16,9 @@
                               title daction/description;
                               id daction/title">
                    <img tal:condition="daction/icon" tal:attributes="src daction/icon; alt daction/title; title daction/title"/>
-                  <!-- <tal:action tal:condition="not:daction/icon" tal:content="daction/title" i18n:translate="">
+                   <tal:action tal:condition="not:daction/icon" tal:content="daction/title" i18n:translate="">
                     Action name
-                    </tal:action>-->
+                    </tal:action>
             </a>
           </div>
 	</li>

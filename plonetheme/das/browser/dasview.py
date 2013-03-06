@@ -34,9 +34,6 @@ class SearchboxViewlet(common.SearchBoxViewlet):
 class Quicklinks(ViewletBase):
     render = ViewPageTemplateFile('templates/quicklinks.pt')
 
-class BreadcrumbViewlet(PathBarViewlet):
-    render = ViewPageTemplateFile('templates/breadcrumb.pt')
-
 class ThemeView(BrowserView):
     implements(IThemeView)
 

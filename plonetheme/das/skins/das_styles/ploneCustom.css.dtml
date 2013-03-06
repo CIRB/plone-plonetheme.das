@@ -18,8 +18,6 @@ blockquote, q {
     quotes: none;
 }
 
-
-
 #content a:link,
 #content a:visited,
 dl.portlet a:link,
@@ -41,7 +39,7 @@ body {
     background-color: #cb99cc;
     font-family:Arial;
     font-size:12px;
-    color:#666666;
+    color:#666;
     width: 980px;
     margin-left: auto;
     margin-right: auto;
@@ -49,14 +47,8 @@ body {
 
 #portal-logo{
   margin-top:0;
-  margin-left:0em;
+  margin-left:-0.7em;
   padding-left:0;
-  margin-bottom: 0;
-}
-
-#content{
- margin: 1em 2.25em 2em;
- font-size:100%;
 }
 
 #content a:link, dl.portlet a:link {
@@ -67,7 +59,7 @@ body {
     background: #FFF url("header.jpg") top left no-repeat;
     width: 980px;
     margin: 10px auto;
-    /*height: 350px;*/
+    height: 350px;
 }
 #language, #searchbox, #printMail {
     float: right;
@@ -83,12 +75,7 @@ body {
     clear: both;
 }
 
-#portal-column-content{
-   width:99%;
-   
-   
-}
-/*div.position-1\:4 {
+div.position-1\:4 {
     margin-left: -77.875%;
 }
 
@@ -102,7 +89,7 @@ div.position-3\:4 {
 
 div.width-1\:2 {
     width: 50.75%;
-}*/
+}
 
 #portal-quicklinks li a {
     display: inline-block;
@@ -154,11 +141,7 @@ div.width-1\:2 {
     color: #4A0012;
 }
 
-#portal-globalnav a img, #portal-globalnav:link img, #portal-globalnav:visited img {
 
-    position: relative;
-    z-index: 0;
-}
 
 #portal-globalnav li a,
 #portal-quicklinks li a{
@@ -214,13 +197,8 @@ padding-top:7px;
 
 
 #portal-breadcrumbs{
-    margin-left: 0em;
+      margin-left: -17.8em;
     margin-bottom:2em;
-    margin-right: 24em;
-    padding-left: 1em;
-    padding-top:0em; 
-    position: relative;
-    top: -15px;
 }
 
 .section-liens #portal-breadcrumbs,
@@ -256,72 +234,35 @@ padding-top:7px;
 
 #portal-column-one{
  margin-top:1.8em;
- padding-right: 25px;
- width: 20%;
 }
-
-.visualPadding{
- margin-left:10px;
-}
-
 dl.portletNavigationTree{
  /*margin-top:2.8em;*/
 }
 
 
 .portletNavigationTree{
-    width:184px;
+    width:174px;
     margin-left:7px;
 }
-
-dl.portletNavigationTree dd.portletItem {
-  margin-top:-4em;
-}
-
-dl.portlet dt.portletHeader a:link, dl.portlet dt.portletHeader a:visited, dl.portlet dt.portletHeader a:hover {
- color:#CB99CC !important;
- padding-top:0.5em;
- padding-bottom:0.5em;
- font-size: 130%;
-}
-
 .portletNavigationTree ul{
     /*border-top:1px solid #4a0012;*/
-   /* background:url(nav_header_bg.jpg) top left repeat-x;*/
-    border-bottom:1px solid #000000;
-    padding-top:0px;
-    padding-bottom:5px;
+    background:url(nav_header_bg.jpg) top left repeat-x;
+    border-bottom:1px solid #cb99cc;
+    padding-top:5px;
 }
-
 .portletNavigationTree ul li{
     margin-left:20px;
     margin-top:10px;
     margin-bottom:10px;
 }
-
-.portletNavigationTree dt.portletHeader{
-    position: relative;
-    z-index: -1;
-}
-
-.navTreeTopNode div {
-    border-bottom:1px solid #CB99CC;
-    border-top: 1px solid #000000;
-    width:130%;
-    margin-left: -3em;
-    padding-top: 1em;
-    
-}
-
 .navTreeTopNode a:link, 
 .navTreeTopNode a:visited{
     color:#cb99cc !important;
     text-decoration:none;
     font-weight:bold;
     font-size:14px;
-    margin-top:0.05em;
-    margin-bottom:0.5em;
-    margin-left: 0.5em;
+    margin-top:-0.6em;
+    margin-left: -2.5em;
 }
 
 .navTreeTopNode a:hover, 
@@ -338,7 +279,7 @@ dl.portlet ul.navTree .navTreeCurrentItem{
 }
 
 dl.portlet ul.navTree li.navTreeTopNode .navTreeCurrentItem{
-    margin-left: 0.5em;
+    margin-left: -2.5em;
 }
 
 
@@ -368,7 +309,7 @@ li.navTreeItem .state-missing-value{
 dl.portlet ul.navTreeLevel0 > .navTreeItem {
     border-bottom: 0em dotted #DDDDDD;
     /*line-height: 1em;*/
-    padding: 0.05em 1.2em;
+    padding: 0.05em 1em;
 }
 
 .navTreeLevel0{
@@ -402,14 +343,9 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
     font-size:12px;
 }
 
-.navTreeLevel0 .visualNoMarker a{
-   padding-left: 15px;
-}
-
 .navTreeLevel0 .visualNoMarker a.navTreeCurrentItem{
         color: #490010;
-   	background: url("nav_li_selected.jpg") no-repeat scroll 0px 1px transparent;
-        
+   	background: url("nav_li_selected.jpg") no-repeat scroll 5px 0px transparent;
 }
 
 .navTreeLevel0 .visualNoMarker a.navTreeCurrentItem:hover{
@@ -444,20 +380,13 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
    display:block;
    float:left;
    margin-bottom: 0;
-   margin-left: 75.5em;
+   margin-left: 74em;
    margin-top: -5.5em;
 }
 
 .documentActions ul li{
    display:inline;
    float:left;
-}
-
-*+html .documentActions{
-
- margin-left:0;
- position:relative;
- left:905px;
 }
 
 
@@ -469,18 +398,9 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 ul#portal-languageselector {
     background: none repeat scroll 0 0 transparent;
     font-size: 150%;
-    margin-top:-10.0em;
+    margin-top:-10.5em;
     margin-right:0em;
     text-transform:uppercase;
-}
-
-ul#portal-languageselector a:link,
-ul#portal-languageselector a:visited{
-    color: #223645;
-}
-
-ul#portal-languageselector li.currentLanguage a{
-    color: #CB99CC;
 }
 
 /*----Searchbox----*/
@@ -503,11 +423,6 @@ li#document-action-print div.docaction{
 .LSBox{
  margin-top:18em;
  margin-right:24.5em;
-}
-
-*+html .LSBox{
- 
- margin-left:-20em;
 }
 
 #searchGadget {
@@ -544,15 +459,15 @@ div#portal-columns{
  /*background: url("nav_li_selected.jpg") no-repeat scroll 0 3px transparent;*/
 }
 
-table.plain, table.plain tr th, table.plain tr td{
+table.projets, table.projets tr th, table.projets tr td{
     border:1px solid #cb99cc;
     padding:5px;
     border-collapse:collapse;
 }
-/*table.projets{
+table.projets{
     width:707px;
-}*/
-table.plain tr th{
+}
+table.projets tr th{
     background-color:#feff99;
     color:#4b0012;
     vertical-align:middle;
@@ -560,7 +475,7 @@ table.plain tr th{
     font-size:13px;
     text-transform:capitalize;
 }
-table.plain tr td{
+table.projets tr td{
     background-color:#FFF;
     color:#223645;
 }
@@ -571,7 +486,7 @@ table.plain tr td{
     background-color:#cb99cc;
     color:#FFF;
     border-bottom:1px solid #FFF;
-    margin-bottom: 0;
+    
     
 }
 
@@ -614,13 +529,4 @@ div#footer a:hover,
 div#footer a:focus{
     text-decoration:underline;
     color:#FFF;
-}
-
-#viewspace{
-  margin-left:3px;
-}
-
-/*---*/
-#region-content{
-  margin-left:15px;
 }
