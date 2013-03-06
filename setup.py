@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-version = '1.2dev'
+version = '1.2.1'
 
 setup(name='plonetheme.das',
       version=version,
