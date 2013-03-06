@@ -1,0 +1,5 @@
+include *
+
+recursive-include docs *
+recursive-include plonetheme *
+global-exclude *pyc
