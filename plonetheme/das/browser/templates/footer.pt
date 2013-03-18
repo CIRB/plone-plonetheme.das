@@ -12,16 +12,16 @@
 	</div>
 	<div id="footright" width="49%" align="right" tal:condition="python:request.LANGUAGE=='fr'">
 		<div id="footrighttop">
-			<a href="http://www.bruxelles.irisnet.be/bruxelles?set_language=fr" target="_blank">Site officiel de la Région de Bruxelles-Capitale<img alt="Région de Bruxelles-Capitale" src="iris.jpg"></a>
+		<a href="http://www.bruxelles.irisnet.be/bruxelles?set_language=fr" target="_blank"><!--span id="oficiel-site">Site officiel de la</span--><img alt="Région de Bruxelles-Capitale" src="logo-region-de-bruxelles-capitale.png" id="2illu-region-de-bruxelles-capitale" width="142px" height="60px"></a>
 			
                 </div>
                 <div id="footrightbottom">
-      			<a href="http://www.cirb.irisnet.be" target="_blank">Created and hosted by CIRB-CIBG <img alt="Centre d'Informatique pour la Région Bruxelloise" src="cirb.jpg"></a>
+      			<a href="http://www.cirb.irisnet.be" target="_blank">Created and hosted by CIRB-CIBG <!--img alt="Centre d'Informatique pour la Région Bruxelloise" src="cirb.jpg"--></a>
                </div>
 	</div>
 	<div id="footright" width="49%" align="right" tal:condition="python:request.LANGUAGE=='nl'">
-		<div id="footrighttop"><a href="http://www.brussel.irisnet.be/brussel?set_language=nl" target="_blank"> Official site van het Brussels Hoofdstedelijk Gewest<img alt="het Brussels Hoofdstedelijk Gewest" src="iris.jpg"></a></div>
-                <div id="footrightbottom"><a href="http://www.cirb.irisnet.be/home-page-nl" target="_blank">Created and hosted by CIRB-CIBG <img alt="Centrum voor Informatica voor het Brusselse Gewest" src="cirb.jpg"></a></div>
+		<div id="footrighttop"><a href="http://www.brussel.irisnet.be/brussel?set_language=nl" target="_blank"><!-- Official site van het--><img alt="het Brussels Hoofdstedelijk Gewest" src="brussels-hoofdstedelijk-gewest.png" id="logo-brussels-hoofdstedelijk-gewest" width="192px" height="30px"></a></div>
+                <div id="footrightbottom"><a href="http://www.cirb.irisnet.be/home-page-nl" target="_blank">Created and hosted by CIRB-CIBG <!--img alt="Centrum voor Informatica voor het Brusselse Gewest" src="cirb.jpg"--></a></div>
 	</div>
    </div>		
 </div>

@@ -118,6 +118,9 @@ div.width-1\:2 {
     padding-right:0;
 }
 
+*+html #portal-globalnav{
+     width: 74.8%;
+}
 #portal-quicklinks{
     width: 25%;
     float:right; 
@@ -163,6 +166,7 @@ div.width-1\:2 {
 #portal-quicklinks li{
 
 padding-top:7px;
+margin-left:7px;
 
 }
 
@@ -196,12 +200,30 @@ padding-top:7px;
 }
 
 
-#portal-breadcrumbs{
-      margin-left: -17.8em;
+#portal-breadcrumbs,
+.section-links #portal-breadcrumbs{
+    margin-left: 0em;
     margin-bottom:2em;
 }
+.section-presentation-1 #portal-breadcrumbs{
+      margin-left: 0em;
+}
 
-.section-liens #portal-breadcrumbs,
+.section-front-page #portal-breadcrumbs,
+.site-nl #portal-breadcrumbs{
+margin-left: -201.2px;
+}
+
+*+html #portal-breadcrumbs{
+   margin-left: -202.8px;
+   position:relative;
+   z-index:10;
+}
+body.template-contact-info div#portal-breadcrumbs{
+}
+   margin-left:0;
+}
+/*.section-liens #portal-breadcrumbs,
 .section-liens-nl #portal-breadcrumbs,
 .section-links #portal-breadcrumbs,
 .section-news #portal-breadcrumbs,
@@ -211,7 +233,7 @@ padding-top:7px;
 .template-login_form #portal-breadcrumbs
 {
    margin-left: 0em;
-}
+}*/
 
 #portal-breadcrumbs a:link, 
 #portal-breadcrumbs a:visited, 
@@ -399,21 +421,31 @@ ul#portal-languageselector {
     background: none repeat scroll 0 0 transparent;
     font-size: 150%;
     margin-top:-10.5em;
-    margin-right:0em;
+    margin-right:-4px;
     text-transform:uppercase;
+}
+ul#portal-languageselector li a:link,
+ul#portal-languageselector li a:visited{
+    color: #4A0012;
+}
+ul#portal-languageselector li.currentLanguage a:link,
+ul#portal-languageselector li.currentLanguage a:visited{
+    color:#CB99CC;
 }
 
 /*----Searchbox----*/
 #portal-searchbox{
-   margin-right: -23em;
    margin-top:-31em;
 }
 
 input.searchButton{
-   background: url("search_btn.jpg") no-repeat scroll -1px 0px transparent;
+   background: url("search_btn.jpg") no-repeat scroll 0px 0px transparent;
    height: 26px;
    width: 26px;
    border:0 none;
+}
+*+html input.searchButton{
+   background: url("search_btn.jpg") no-repeat scroll 0px 6px transparent;
 }
 
 li#document-action-print div.docaction{
@@ -422,8 +454,15 @@ li#document-action-print div.docaction{
 
 .LSBox{
  margin-top:18em;
- margin-right:24.5em;
+ margin-right:1.3em;
 }
+
+*+html .LSBox{
+margin-left:-180px;
+}
+*+html #portal-searchbox{
+}
+
 
 #searchGadget {
     width: 11em;
@@ -529,4 +568,31 @@ div#footer a:hover,
 div#footer a:focus{
     text-decoration:underline;
     color:#FFF;
+}
+#logo-region-de-bruxelles-capitale,
+#logo-brussels-hoofdstedelijk-gewest{
+margin-right:-16px;
+margin-top:7px;
+}
+#logo-brussels-hoofdstedelijk-gewest{
+margin-right:0px;
+}
+
+#oficiel-site{
+ position:relative;
+ top: -2px;
+}
+#footrightbottom{
+margin-top:10px;
+}
+table,
+table td{
+border: 1px solid #666666;
+}
+table td{
+padding:2px;
+}
+#2illu-region-de-bruxelles-capitale{
+
+margin-bottom:-5px;
 }
