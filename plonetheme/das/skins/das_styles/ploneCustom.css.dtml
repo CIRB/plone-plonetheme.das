@@ -53,6 +53,7 @@ body {
 
 #content a:link, dl.portlet a:link {
     border-bottom: 0 solid #CCCCCC;
+    text-decoration: underline;
 }
 
 #visual-portal-wrapper {
@@ -443,6 +444,7 @@ input.searchButton{
    height: 26px;
    width: 26px;
    border:0 none;
+   color:transparent;
 }
 *+html input.searchButton{
    background: url("search_btn.jpg") no-repeat scroll 0px 6px transparent;
@@ -595,4 +597,27 @@ padding:2px;
 #2illu-region-de-bruxelles-capitale{
 
 margin-bottom:-5px;
+}
+body.cke_show_borders{
+background: url("") repeat-x scroll left top #FFF;
+font: 12px arial,freesans,clean,sans-serif;
+color: #666666;
+}
+body.cke_show_borders table{
+/*width: 707px;*/
+}
+body.cke_show_borders table, table tr th, table tr td {
+    border: 1px solid #CB99CC !important;
+    padding: 5px;
+}
+body.cke_show_borders table tr td {
+    background-color: #FFFFFF;
+    color: #223645;
+}
+body.cke_show_borders #content{
+font-size:100%;
+}
+
+:focus{
+outline:#0060A9 dotted 1px;
 }
