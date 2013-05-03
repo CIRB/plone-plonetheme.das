@@ -1,7 +1,7 @@
 <!--<div id="quicklinks" tal:define="portal_url view/site_url">-->
 	<ul id="portal-quicklinks" tal:define="portal_url view/site_url">
 		<li class="plain quicklinks" tal:condition="python:request.LANGUAGE=='fr'"><a href="" tal:attributes="href string:${view/portal_url}/liens">Liens utiles</a></li>
-		<li class="plain quicklinks" tal:condition="python:request.LANGUAGE=='nl'"><a href="" tal:attributes="href string:${view/portal_url}/links">Nuttig links</a></li>
+		<li class="plain quicklinks" tal:condition="python:request.LANGUAGE=='nl'"><a href="" tal:attributes="href string:${view/portal_url}/nl/links">Nuttig links</a></li>
 
 		<li class="plain quickcontact" tal:condition="python:request.LANGUAGE=='fr'"><a href="" tal:attributes="href string:${view/portal_url}/fr/contact">Contact</a></li>
 		<li class="plain quickcontact" tal:condition="python:request.LANGUAGE=='nl'"><a href="" tal:attributes="href string:${view/portal_url}/nl/contacten">Contacten</a></li>         
