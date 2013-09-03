@@ -1,7 +1,7 @@
 <div id="portal-footer"  class="row">
   <div id="footer">
 	<div id="footleft" width="49%" align="left" tal:condition="python:request.LANGUAGE=='fr'">
-     		<div>Espace Senghoer</div>
+     		<div>Espace Senghor</div>
 		<div>Avenue du Maelbeek 18, 1040 Bruxelles</div>
 		<div>02 230 99 62 </div>
 	</div>
